@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+// Well is a backend wrepper the front end implentations is here
+/// TODO: FRONT END
 function App() {
   return (
     <div className="App">

@@ -10,7 +10,7 @@ import { getAaveLoadingState, getEthAccount } from '../../store/selectors';
 import { themeDimensions } from '../../theme/commons';
 import { AaveLoadingState, AaveReserveGQLResponse } from '../../util/aave/types';
 import { CardBase } from '../common/card_base';
-import { useInterval } from '../common/hooks/set_interval_hook';
+//import { useInterval } from '../common/hooks/set_interval_hook';
 
 import { WalletDefiBorrowBalances } from './wallet_defi_borrow_balances';
 import { WalletDefiLendingBalances } from './wallet_defi_lending_balances';

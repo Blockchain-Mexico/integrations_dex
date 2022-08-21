@@ -4,7 +4,7 @@ import { Web3Wrapper } from '@0x/web3-wrapper';
 
 import { KNOWN_TOKENS_META_DATA, TokenMetaData } from '../common/tokens_meta_data';
 import { getERC20ContractWrapper } from "../services/contract_wrappers";
-import { getTokenMetaData } from '../services/relayer';
+//import { getTokenMetaData } from '../services/relayer';
 import { getTokenByAddress } from '../services/tokens';
 
 import {

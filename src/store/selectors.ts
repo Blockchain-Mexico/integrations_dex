@@ -1,4 +1,5 @@
 import { createSelector } from 'reselect';
+import {StoreState} from "../util /types";
 
 export const getATokensData = (state: StoreState) => state.aave.aTokensData;
 export const getAaveCurrency = (state: StoreState) => state.aave.currency;

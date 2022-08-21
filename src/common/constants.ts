@@ -1,4 +1,4 @@
-import { ChainId } from '../util/types/swap';
+//import { ChainId } from '../util/types/swap';
 
 export const INFURA_ID = process.env.REACT_APP_INFURA_ID || '';
 

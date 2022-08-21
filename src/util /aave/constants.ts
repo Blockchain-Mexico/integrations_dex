@@ -1,5 +1,5 @@
 import { CHAIN_ID } from '../../common/constants';
-import { ChainId } from '../types/swap';
+//import { ChainId } from '../types/swap';
 
 export const AAVE_ETH_TOKEN = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';
 

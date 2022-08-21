@@ -13,7 +13,7 @@ import { ButtonIcons, ButtonVariant, Token, TokenBalance } from '../../util/type
 import { BigNumberInput } from '../common/big_number_input';
 import { Button } from '../common/button';
 import { ErrorCard, ErrorIcons, FontSize } from '../common/error_card';
-import { CloseModalButton } from '../common/icons/close_modal_button';
+//import { CloseModalButton } from '../common/icons/close_modal_button';
 
 interface State {
     amount: BigNumber | null;

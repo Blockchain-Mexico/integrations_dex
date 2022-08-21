@@ -5,13 +5,14 @@ import Modal from 'react-modal';
 import styled from 'styled-components';
 
 import { TX_DEFAULTS_TRANSFER } from '../../common/constants';
-import { BigNumberInput } from '../common/big_number_input';
+//import { BigNumberInput } from '../common/big_number_input';
 import { Button } from '../common/button';
 import { ErrorCard, ErrorIcons, FontSize } from '../common/error_card';
-import { CloseModalButton } from '../common/icons/close_modal_button';
-import { IconType, Tooltip } from '../common/tooltip';
+//import { CloseModalButton } from '../common/icons/close_modal_button';
+//import { IconType, Tooltip } from '../common/tooltip';
 import {ATokenData} from "../../util /aave/types";
 import {Token, TokenBalance} from "../../util /types";
+import {tokenSymbolToDisplayString} from "../../util /tokens";
 
 interface Props extends React.ComponentProps<typeof Modal> {
     isSubmitting: boolean;

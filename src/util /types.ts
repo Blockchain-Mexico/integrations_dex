@@ -587,6 +587,17 @@ export enum ProviderType {
     Fallback = 'FALLBACK',
 }
 
+export interface StoreState {
+    readonly router: RouterState;
+    readonly blockchain: BlockchainState;
+    readonly relayer: RelayerState;
+    readonly ui: UIState;
+    readonly market: MarketState;
+    readonly collectibles: CollectiblesState;
+    readonly bzx: BZXState;
+    readonly swap: SwapState;
+    readonly aave: AaveState;
+}
 
 export interface iTokenData {
     token: Token;

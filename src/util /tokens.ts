@@ -4,8 +4,8 @@ import numbro from 'numbro';
 import { NETWORK_ID, NETWORK_ID_BSC } from '../common/constants';
 
 import { isWeth } from './known_tokens';
-import { ETHERSCAN_TRANSACTION_URL, ETHERSCAN_URL, getTransactionLink } from './transaction_link';
-import { RelayerFill, Token } from './types';
+//import { ETHERSCAN_TRANSACTION_URL, ETHERSCAN_URL, getTransactionLink } from './transaction_link';
+//import { RelayerFill, Token } from './types';
 
 import { transactionHashUtils } from '@0x/order-utils';
 import { getTransactionHashFromFill } from './fills';

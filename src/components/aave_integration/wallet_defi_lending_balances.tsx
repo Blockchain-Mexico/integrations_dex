@@ -27,7 +27,6 @@ import {
 import { themeBreakPoints } from '../../themes/commons';
 import { AaveLoadingState, ATokenData, Protocol } from '../../util/aave/types';
 import { getKnownTokens, isWethToken } from '../../util/known_tokens';
-import { isMobile } from '../../util/screen';
 import { formatTokenSymbol, getEtherscanLinkForToken, tokenAmountInUnits } from '../../util/tokens';
 import { ButtonVariant, Token, TokenBalance } from '../../util/types';
 import { Button } from '../common/button';
@@ -37,7 +36,6 @@ import { useWindowSize } from '../common/hooks/window_size_hook';
 import { TokenIcon } from '../common/icons/token_icon';
 import { LoadingWrapper } from '../common/loading';
 import { CustomTD, Table, TH, THead, THLast, TR } from '../common/table';
-import { ZeroXInstantWidget } from '../erc20/common/0xinstant_widget';
 
 import { DefiLendingTokenModal } from './wallet_defi_lending_token_modal';
 

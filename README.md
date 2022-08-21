@@ -1,8 +1,12 @@
-### Quant bot integration
+### Integration Dex
 
+Basically: towards a new kind of virtual machine.
+
+### Quant bot integration
+Is just a backend wrapper service.
 The landscape of smart contract (stack )
 
-1 Data -> Aggregators -> creditMultiprotocol -> ?
+1.- Data -> Aggregators -> creditMultiprotocol -> ?
 
 And the lib implementation so far.
 
@@ -20,16 +24,25 @@ This is lookng for a wrapper and manipulatation with typescript of strings.
 Toward to multi -Defi Virtual machines:
 Some day this will be deprecated so:
 The integration could be a dedicated descentralized approach:
-The EVM is general porpouse the DeFi require a one dedicated Virtual Machine
+The EVM is general purpose the DeFi require a one dedicated Virtual Machine
 
 For do that need to start a new EIP 
-We have different types of EVM
+We have different types of EVM and L2 stuff
 https://vitalik.eth.limo/general/2022/08/04/zkevm.html
 
+But there is not a dedicated virtual machine just for Defi.
+
+Promises:
+
+Sckeptical implentations is there is not a real hint for implentation.
 
 Security
 A dedicated EVM can create more security in re-entrace concerns.
-The reverse engineering in a just one function for specific stack move ir more hard.
+The reverse engineering in a just one function for specific stack move is more hard.
+
+
+Slides:
+https://slides.com/adanpablo/exchange-centralizado
 
 
 # Getting Started with Create React App
