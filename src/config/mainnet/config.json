@@ -1,0 +1,53 @@
+{
+    "general": {
+        "title": "Integrations_Dex"
+    },
+    "tokens": [
+        {
+            "symbol": "weth",
+            "name": "Wrapped Ether",
+            "primaryColor": "#3333ff",
+            "icon": "assets/icons/weth.svg",
+            "addresses": {
+                "1": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "3": "0xc778417e063141139fce010982780140aa0cd5ab",
+                "4": "0xc778417e063141139fce010982780140aa0cd5ab",
+                "42": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
+                "50": "0x0b1ba0af832d7c05fd64161e0db78e85978e8082"
+            },
+            "decimals": 18,
+            "displayDecimals": 3,
+            "id": "ethereum",
+            "c_id": "ethereum",
+            "website": "https://weth.io",
+            "description": "wETH is 'wrapped ETH'",
+            "isStableCoin": false
+        },
+        {
+            "decimals": 18,
+            "symbol": "link",
+            "name": "ChainLink",
+            "primaryColor": "#0a258a",
+            "icon": "assets/icons/link.svg",
+            "unified_cryptoasset_id": 1975,
+            "addresses": {
+                "1": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                "3": "0x1a906e71ff9e28d8e01460639eb8cf0a6f0e2486"
+            },
+            "displayDecimals": 0,
+            "website": "https://chain.link/",
+            "c_id": "chainlink",
+            "description": "Your smart contracts connected to real world data, events and payments.",
+            "id": "chainlink"
+        }
+    ],
+    "pairs": [
+
+    ],
+    "marketFilters": [
+        {
+            "text": "ETH",
+            "value": "weth"
+        }
+    ]
+}
