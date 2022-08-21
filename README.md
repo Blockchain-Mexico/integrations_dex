@@ -1,3 +1,37 @@
+### Quant bot integration
+
+The landscape of smart contract (stack )
+
+1 Data -> Aggregators -> creditMultiprotocol -> ?
+
+And the lib implementation so far.
+
+1. Just using the lib, create another smart contract with another sol doing sutff, a python implementation.
+This is lookng for a wrapper and manipulatation with typescript of strings.
+
+##Features 
+
+[Semi ready looking for v2] Wallet connect appproach
+[semi ready] the graph and the abi 
+[deprecated in v4?] 0x wrapper 
+[is pretty silly ] Towards the  Defi Virtaul Machine 
+
+
+Toward to multi -Defi Virtual machines:
+Some day this will be deprecated so:
+The integration could be a dedicated descentralized approach:
+The EVM is general porpouse the DeFi require a one dedicated Virtual Machine
+
+For do that need to start a new EIP 
+We have different types of EVM
+https://vitalik.eth.limo/general/2022/08/04/zkevm.html
+
+
+Security
+A dedicated EVM can create more security in re-entrace concerns.
+The reverse engineering in a just one function for specific stack move ir more hard.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +102,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# integrations_dex
